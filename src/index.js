@@ -32,17 +32,18 @@ import Register from "views/examples/Register.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={props => <Profile {...props} />} />
       <Route
-        path="/landing-page"
+        path="/portfolio"
         exact
         render={props => <Landing {...props} />}
       />
+
       <Route path="/login-page" exact render={props => <Login {...props} />} />
       <Route
-        path="/profile-page"
+        path="/how-to"
         exact
-        render={props => <Profile {...props} />}
+        render={props => <Index {...props} />}
       />
       <Route
         path="/register-page"

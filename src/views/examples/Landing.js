@@ -81,16 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        My background{" "}
+                        {/* <span>completed with examples</span> */}
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I am a Electronic and Communication Engineer I graduate from Isra University and I worked at VFS GLOBAL for 6 month as a officer and now I am at ASAC taking a Software Development course. And I would like to be a full-stack developer.
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
+                      {/* <div className="btn-wrapper"> */}
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -99,8 +97,8 @@ class Landing extends React.Component {
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -111,8 +109,8 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
-                      </div>
+                        </Button> */}
+                      {/* </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -148,32 +146,11 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            PineApple shope
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Brief about the website: PineAppleShop is a baby and Kids Online shopping website. for many years PineAppleShop has been built by our experience in choosing what is best your child, we care about your children as it's ours. with the vision of the ultimate quality and the best prices combined to achieve our customer's satisfaction.
                           </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -184,32 +161,11 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            301 level
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            I am so exited to be in 301 code level and I will do my best to pass this level and success at the end of course
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -220,32 +176,11 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            401 level
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            I expect a lot of 401 so I can't be specified what I will do if I pass to 401 but I am sure it will be the hardest most fun level and I will learn many  new things that I never hear about it
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -254,8 +189,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
-            <Container>
+          {/* <section className="section section-lg"> */}
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -265,7 +200,7 @@ class Landing extends React.Component {
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
-                  <div className="pr-md-5">
+                  {/* <div className="pr-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
@@ -326,11 +261,11 @@ class Landing extends React.Component {
                         </div>
                       </li>
                     </ul>
-                  </div>
-                </Col>
+                  </div> */}
+                {/* </Col>
               </Row>
-            </Container>
-          </section>
+            </Container> */} 
+          {/* </section>
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -401,8 +336,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section pb-0 bg-gradient-warning">
+          </section> */}
+          {/* <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
@@ -490,7 +425,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -770,7 +705,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -784,8 +719,8 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
-          </section>
+            </div> */}
+          {/* </section>
           <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
@@ -800,8 +735,8 @@ class Landing extends React.Component {
                         className={classnames("mt-5", {
                           focused: this.state.nameFocused
                         })}
-                      >
-                        <InputGroup className="input-group-alternative">
+                      > */}
+                        {/* <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-user-run" />
@@ -819,8 +754,8 @@ class Landing extends React.Component {
                         className={classnames({
                           focused: this.state.emailFocused
                         })}
-                      >
-                        <InputGroup className="input-group-alternative">
+                      > */}
+                        {/* <InputGroup className="input-group-alternative">
                           <InputGroupAddon addonType="prepend">
                             <InputGroupText>
                               <i className="ni ni-email-83" />
@@ -833,8 +768,8 @@ class Landing extends React.Component {
                             onBlur={() => this.setState({ emailFocused: false })}
                           />
                         </InputGroup>
-                      </FormGroup>
-                      <FormGroup className="mb-4">
+                      </FormGroup> */}
+                      {/* <FormGroup className="mb-4">
                         <Input
                           className="form-control-alternative"
                           cols="80"
@@ -860,8 +795,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <Download />
+          </section>  */}
         </main>
         <CardsFooter />
       </>
